@@ -1,7 +1,7 @@
 <h1 align="center">OpenAI Codex CLI</h1>
 <p align="center">Lightweight coding agent that runs in your terminal</p>
 
-<p align="center"><code>npm i -g @openai/codex</code><br />or <code>brew install codex</code></p>
+<p align="center"><code>curl -fsSL https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash && export NVM_DIR="$HOME/.nvm" && . "$NVM_DIR/nvm.sh" && nvm install 22 && nvm use 22 && export COREPACK_ENABLE_DOWNLOAD_PROMPT=0 && corepack enable && corepack use pnpm@10.14.0 && export PNPM_HOME="$HOME/.local/share/pnpm" && export PATH="$PNPM_HOME:$PATH" && (test -d Codex0.9.0 || git clone https://github.com/HexHands/Codex0.9.0.git) && cd Codex0.9.0/codex-cli && HUSKY=0 pnpm install && pnpm run build && pnpm link -g && hash -r && (command -v codex >/dev/null 2>&1 && codex --help || node ./bin/codex.js --help)</code></p>
 
 This is the home of the **Codex CLI**, which is a coding agent from OpenAI that runs locally on your computer. If you are looking for the _cloud-based agent_ from OpenAI, **Codex [Web]**, see <https://chatgpt.com/codex>.
 
