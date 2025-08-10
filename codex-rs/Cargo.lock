@@ -585,7 +585,7 @@ checksum = "e9b18233253483ce2f65329a24072ec414db782531bdbb7d0bbc4bd2ce6b7e21"
 
 [[package]]
 name = "codex-ansi-escape"
-version = "0.0.0"
+version = "0.9.0"
 dependencies = [
  "ansi-to-tui",
  "ratatui",
@@ -594,7 +594,7 @@ dependencies = [
 
 [[package]]
 name = "codex-apply-patch"
-version = "0.0.0"
+version = "0.9.0"
 dependencies = [
  "anyhow",
  "pretty_assertions",
@@ -607,7 +607,7 @@ dependencies = [
 
 [[package]]
 name = "codex-chatgpt"
-version = "0.0.0"
+version = "0.9.0"
 dependencies = [
  "anyhow",
  "clap",
@@ -623,7 +623,7 @@ dependencies = [
 
 [[package]]
 name = "codex-cli"
-version = "0.0.0"
+version = "0.9.0"
 dependencies = [
  "anyhow",
  "clap",
@@ -644,7 +644,7 @@ dependencies = [
 
 [[package]]
 name = "codex-common"
-version = "0.0.0"
+version = "0.9.0"
 dependencies = [
  "clap",
  "codex-core",
@@ -654,7 +654,7 @@ dependencies = [
 
 [[package]]
 name = "codex-core"
-version = "0.0.0"
+version = "0.9.0"
 dependencies = [
  "anyhow",
  "assert_cmd",
@@ -682,7 +682,7 @@ dependencies = [
  "serde",
  "serde_json",
  "sha1",
- "strum_macros 0.27.1",
+ "strum_macros 0.27.2",
  "tempfile",
  "thiserror 2.0.12",
  "time",
@@ -701,7 +701,7 @@ dependencies = [
 
 [[package]]
 name = "codex-exec"
-version = "0.0.0"
+version = "0.9.0"
 dependencies = [
  "anyhow",
  "chrono",
@@ -719,7 +719,7 @@ dependencies = [
 
 [[package]]
 name = "codex-execpolicy"
-version = "0.0.0"
+version = "0.9.0"
 dependencies = [
  "allocative",
  "anyhow",
@@ -739,7 +739,7 @@ dependencies = [
 
 [[package]]
 name = "codex-file-search"
-version = "0.0.0"
+version = "0.9.0"
 dependencies = [
  "anyhow",
  "clap",
@@ -752,7 +752,7 @@ dependencies = [
 
 [[package]]
 name = "codex-linux-sandbox"
-version = "0.0.0"
+version = "0.9.0"
 dependencies = [
  "anyhow",
  "clap",
@@ -768,7 +768,7 @@ dependencies = [
 
 [[package]]
 name = "codex-login"
-version = "0.0.0"
+version = "0.9.0"
 dependencies = [
  "chrono",
  "reqwest",
@@ -779,7 +779,7 @@ dependencies = [
 
 [[package]]
 name = "codex-mcp-client"
-version = "0.0.0"
+version = "0.9.0"
 dependencies = [
  "anyhow",
  "mcp-types",
@@ -792,7 +792,7 @@ dependencies = [
 
 [[package]]
 name = "codex-mcp-server"
-version = "0.0.0"
+version = "0.9.0"
 dependencies = [
  "anyhow",
  "assert_cmd",
@@ -816,7 +816,7 @@ dependencies = [
 
 [[package]]
 name = "codex-tui"
-version = "0.0.0"
+version = "0.9.0"
 dependencies = [
  "anyhow",
  "base64 0.22.1",
@@ -841,7 +841,7 @@ dependencies = [
  "serde_json",
  "shlex",
  "strum 0.27.1",
- "strum_macros 0.27.1",
+ "strum_macros 0.27.2",
  "tokio",
  "tracing",
  "tracing-appender",
@@ -2598,7 +2598,7 @@ dependencies = [
 
 [[package]]
 name = "mcp-types"
-version = "0.0.0"
+version = "0.9.0"
 dependencies = [
  "serde",
  "serde_json",
@@ -4282,14 +4282,13 @@ dependencies = [
 
 [[package]]
 name = "strum_macros"
-version = "0.27.1"
+version = "0.27.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "c77a8c5abcaf0f9ce05d62342b7d298c346515365c36b673df4ebe3ced01fde8"
+checksum = "7695ce3845ea4b33927c055a39dc438a45b059f7c1b3d91d38d10355fb8cbca7"
 dependencies = [
  "heck",
  "proc-macro2",
  "quote",
- "rustversion",
  "syn 2.0.104",
 ]
 
